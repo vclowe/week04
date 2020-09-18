@@ -1,0 +1,60 @@
+ h1 {
+     font-family: 'Lexend Peta', sans-serif;
+     color: #056e93;
+ }
+
+ h2 {
+     font-family: 'Lexend Deca', sans-serif;
+     color: #ba044f;
+ }
+
+ p {
+     font-family: 'Lexend Deca', sans-serif;
+ }
+
+ div {
+     background-color: #F5F3F0;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .piano {
+     width: 80%;
+     margin: 0 auto 0 auto;
+ }
+
+
+
+ /* Media queries */
+
+ @media screen and (min-width: 800px) {
+     div.textcolumn {
+         width: 50%;
+         display: inline-block
+     }
+ }
+
+ /* @media screen and (min-width: 1000px) {
+     div.textcolumn {
+         width: 33%;
+         display: inline-block
+     }
+ } */
+
+
+ /* @media screen and (min-width: 800px) {
+     p {
+         font-family: 'Lexend peta', sans-serif;
+     }
+ } */
+
+ @media screen and (min-width: 1200px) {
+     div.textcolumn {
+         column-count: 1;
+     }
+
+     div.imageContainer {
+         display: inline-block;
+         width: 49%;
+     }
+ }
